@@ -1,0 +1,53 @@
+<div>
+      <table class="table table-bordered">
+          <thead>
+            <tr>
+              <!-- <th>Id</th> -->
+              <th>Season</th>
+              <th>Csi</th>
+              <th>Section</th>
+              <th>Offer No</th>
+              <th>Offer Date</th>
+              <th>Planted date</th>
+              <th>Plot type</th>
+              <th>Plot No.</th>
+              <th>Ryot</th>
+              <th>Village</th>
+              <th>Ration Type</th>
+              <th>Agreement Acre</th>
+              <th>Agrremented Tone</th>
+              <th>Measured Area</th>
+              <th>Guarantor1</th>
+              <th>Guarantor2</th>
+              <th>Guarantorname</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr *ngFor="let plot of plots">
+                <!-- <td>{{plot.id}}</td> -->
+              <td>{{plot.season}}</td>
+              <td>{{plot.csi}}</td>
+              <td>{{plot.section}}</td>
+              <td>{{plot.offerno}}</td>
+              <td>{{plot.offerdate}}</td>
+              <td>{{plot.planteddate}}</td>
+              <td>{{plot.plottype}}</td>
+              <td>{{plot.plotno}}</td>
+              <td>{{plot.ryot}}</td>
+              <td>{{plot.village}}</td>
+              <td>{{plot.rationtype}}</td>
+              <td>{{plot.agreementacre}}</td>
+              <td>{{plot.agreementedtonne}}</td>
+              <td>{{plot.measuredarea}}</td>
+              <td>{{plot.guarantor1}}</td>
+              <td>{{plot.guarantor2}}</td>
+              <td>{{plot.guarantorname}}</td>
+              
+            </tr>
+          
+          </tbody>
+        </table>
+     
+    
+</div>
+
