@@ -1,6 +1,17 @@
 # Piatrika
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.2.9.
+==================================================
+#Steps to Follow
+==================================================
+npm install -g json-server
+after installing run
+json-server json-server --watch plotdetail.json
+goto browser and check http://localhost:3000/plots
+then after ng serve
+
+if u want to add data goto->master tab/nav link
+===================================================
 
 ## Development server
 
