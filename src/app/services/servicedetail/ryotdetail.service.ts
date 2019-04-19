@@ -14,7 +14,7 @@ export class RyotdetailService {
   ryot:RyotDetail = new RyotDetail();
   submitted = false;
   ryots: RyotDetail[];
-  private piatrikaUrl = 'http://localhost:3001/ryots';  // URL to web api
+  private piatrikaUrl = 'http://localhost:8000/ryots';  // URL to web api
   constructor( 
     private http: HttpClient
   ) { }
