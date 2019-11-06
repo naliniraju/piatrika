@@ -1,0 +1,29 @@
+{
+   "centerquota": 
+      {
+         "centers": [
+            {
+               "id": 1,
+               "name": "Vuyyoor"
+            },
+            {
+               "id": 2,
+               "name": "Rangareddy"
+            }
+
+         ],
+         "machineries":[
+            {
+               
+               "id": 1,
+               "name": "Tractor"
+            },
+            {
+               "id": 2,
+               "name": "Lorry"
+            }
+            
+         ]
+      
+      }
+}
